@@ -349,14 +349,18 @@ video#bgvid {
   pointer-events: none;
   padding-bottom: 8px;
 }
+#container .item-title #message p {
+  font-size: 45px;
+}
 #container .item-title #message p:first-child {
-  font-size: 128px;
+  font-size: 175px;
   font-weight: 200;
-  margin-top: 64px;
+  margin-top: 160px;
   margin-bottom: 24px;
   z-index: 10;
   color: #fff;
 }
+
 #container .item-title .link-bottom {
   max-width: 600px;
   padding: 12px;
@@ -391,7 +395,7 @@ video#bgvid {
   position: absolute;
   z-index: 95;
   display: block;
-  width: 600px;
+  width: auto;
   height: 450px;
   pointer-events: none;
   opacity: 0.75;
@@ -424,12 +428,15 @@ video#bgvid {
   .shadow_corner {
     opacity: 0;
   }
+  #container .item-title #message p {
+    font-size: 20px;
+  }
   #container .item-title #message p:first-child {
     font-size: 64px;
     font-weight: 200;
   }
   #container .item-title #message {
-    min-height: 320px;
+    min-height: 230px;
   }
   #container .item-title {
     position: relative;
@@ -2540,7 +2547,7 @@ h3 {
   }
 }
 .detials_bg_1 {
-  background-image: url(https://preview.colorlib.com/theme/eventcon/img/program_details/xdetails_banner.png.pagespeed.ic.1rpgtkGRGq.webp);
+  background-image: url("../images/img.jpg");
 }
 .program_details_area {
   background-size: cover;
@@ -2558,7 +2565,7 @@ h3 {
   transform: translateX(-50%);
   content: "";
   background: rgba(255, 255, 255, 0.2);
-  height: 73%;
+  height: 70%;
   width: 1px;
   top: 0;
   bottom: 0;

@@ -16,18 +16,10 @@ $(window).load(function() {
 
     MESSAGES.push({
       delay: 800,
-      text: " —  BY ACM THAPAR;"
+      text: " —  BY ACM THAPAR"
     });
     MESSAGES.push({
       delay: 1800,
-      text: " —  ENIGMA;"
-    });
-    MESSAGES.push({
-      delay: 3200,
-      text: " —  HACKLIPSE"
-    });
-    MESSAGES.push({
-      delay: 4800,
       text: " "
     });
     $container = $("#container");
