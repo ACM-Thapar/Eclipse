@@ -1,4 +1,10 @@
 /*! CSS Used from: Embedded */
+.nav-item a.nav-link {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
 .nav-link {
   color: white;
 }
@@ -7,6 +13,17 @@
 }
 .dropdown-item:hover {
   color: black !important;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+.dropdown-toggle::after {
+  content: none;
 }
 .nav-link:active {
   color: #fff !important;
