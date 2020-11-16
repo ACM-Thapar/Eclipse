@@ -2588,7 +2588,7 @@ h3 {
   }
 }
 .detials_bg_1 {
-  background-image: url("https://raw.githubusercontent.com/ACM-Thapar/Eclipse/master/images/bg_1.jpg");
+  background-image: url(https://raw.githubusercontent.com/ACM-Thapar/Eclipse/master/images/bg_1.jpg);
 }
 .program_details_area {
   background-size: cover;
