@@ -1793,9 +1793,9 @@ h3 {
 .overlay2::before {
   position: absolute;
   content: "";
-  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.8) 100%);
-  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.8) 100%);
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.4) 100%);
+  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.4) 100%);
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.4) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#cc000000',GradientType=0 );
   top: 0;
   left: 0;
@@ -1872,6 +1872,7 @@ h3 {
   }
 }
 #scrollUp {
+  content: "\f062";
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -1898,7 +1899,7 @@ h3 {
   background: #ff4533;
   color: #fff;
   display: inline-block;
-  padding: 14px 35px;
+  padding: 10px 20px;
   font-family: "Anton", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -1917,10 +1918,15 @@ h3 {
   cursor: pointer;
   letter-spacing: 2px;
 }
+.nav-item a.boxed-btn3 {
+  padding: 8px 12px;
+  font-size: 18px;
+}
 .boxed-btn3:hover {
-  background: transparent;
-  color: #ff4533 !important;
   border: 1px solid #ff4533;
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px 0 red;
+  text-shadow: none;
 }
 .boxed-btn3:focus {
   outline: none;
@@ -2582,7 +2588,7 @@ h3 {
   }
 }
 .detials_bg_1 {
-  background-image: url("../images/img.jpg");
+  background-image: url("https://raw.githubusercontent.com/ACM-Thapar/Eclipse/master/images/bg_1.jpg");
 }
 .program_details_area {
   background-size: cover;
