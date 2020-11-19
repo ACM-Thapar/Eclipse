@@ -15,11 +15,11 @@ $(window).load(function() {
     });
 
     MESSAGES.push({
-      delay: 800,
+      delay: 400,
       text: " —  BY ACM THAPAR"
     });
     MESSAGES.push({
-      delay: 1800,
+      delay: 600,
       text: " "
     });
     $container = $("#container");
