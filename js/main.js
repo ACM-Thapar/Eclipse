@@ -11,7 +11,7 @@ $(window).load(function() {
     MESSAGES = [];
     MESSAGES.push({
       delay: 0,
-      text: "ECLIPSE"
+      text: "SPECTRA"
     });
 
     MESSAGES.push({
