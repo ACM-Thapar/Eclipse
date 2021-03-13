@@ -1792,6 +1792,8 @@ h3 {
 .overlay2 {
   position: relative;
   z-index: 0;
+
+
 }
 .overlay2::before {
   position: absolute;
@@ -2591,7 +2593,10 @@ h3 {
   }
 }
 .detials_bg_1 {
-  background-image: url(https://raw.githubusercontent.com/ACM-Thapar/Eclipse/master/images/);
+  /* background-image: url(https://raw.githubusercontent.com/ACM-Thapar/Eclipse/master/images/); */
+  /* background-image: url("https://images.unsplash.com/photo-1446776877081-d282a0f896e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"); */
+  
+  background-image: url("https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80");
 }
 .program_details_area {
   background-size: cover;
