@@ -2591,7 +2591,7 @@ h3 {
   }
 }
 .detials_bg_1 {
-  background-image: url(https://raw.githubusercontent.com/ACM-Thapar/Eclipse/master/images/bg_1.jpg);
+  background-image: url(https://raw.githubusercontent.com/ACM-Thapar/Eclipse/master/images/);
 }
 .program_details_area {
   background-size: cover;
@@ -3607,6 +3607,6 @@ h4 {
 .link-icon {
   color: white;
 }
-/* .single_brand{
+ /* .single_brand{
   height: 230px;
-} */
+}  */
