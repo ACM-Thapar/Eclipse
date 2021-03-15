@@ -1901,7 +1901,7 @@ h3 {
   bottom: 25px;
 }
 .boxed-btn3 {
-  background: #ff4533;
+  background: #3770ff;
   color: #fff;
   display: inline-block;
   padding: 10px 20px;
@@ -1928,9 +1928,9 @@ h3 {
   font-size: 18px;
 }
 .boxed-btn3:hover {
-  border: 1px solid #ff4533;
+  border: 1px solid #3770ff;
   transform: translateY(-10px);
-  box-shadow: 0 0 20px 0 red;
+  box-shadow: 0 0 20px 0 blue;
   text-shadow: none;
 }
 .boxed-btn3:focus {
@@ -3615,3 +3615,7 @@ h4 {
  /* .single_brand{
   height: 230px;
 }  */
+
+.dev-nav{
+  margin-top: 10px;
+}
