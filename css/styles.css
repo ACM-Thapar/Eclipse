@@ -1881,7 +1881,7 @@ h3 {
   position: fixed;
   right: 20px;
   bottom: 20px;
-  background: #ff4533;
+  background: #3770ff;
   z-index: 99;
   width: 40px;
   height: 40px;
@@ -1966,7 +1966,7 @@ h3 {
 .section_title h4 {
   font-size: 30px;
   font-weight: 400;
-  color: #ff4533;
+  color: #3770ff;
   font-family: "Anton", sans-serif;
   margin-bottom: 0;
 }
@@ -1995,7 +1995,7 @@ h3 {
 }
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #ff4533;
+  color: #3770ff;
 }
 @media (max-width: 767px) {
   .slicknav_menu .slicknav_nav a i {
@@ -2121,7 +2121,7 @@ h3 {
   }
 }
 .header-area .main-header-area .buy_tkt .book_btn a {
-  background: #ff4533;
+  background: #3770ff;
   font-family: "Anton", sans-serif;
   padding: 12px 46px;
   font-size: 16px;
@@ -2139,8 +2139,8 @@ h3 {
   }
 }
 .header-area .main-header-area .buy_tkt .book_btn a:hover {
-  border-color: #ff4533;
-  color: #ff4533;
+  border-color: #3770ff;
+  color: #3770ff;
   background: transparent;
 }
 .header-area .main-header-area .main-menu {
@@ -2198,7 +2198,7 @@ h3 {
   }
 }
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #ff4533;
+  color: #3770ff;
 }
 .header-area .main-header-area .main-menu ul li .submenu {
   position: absolute;
@@ -2353,7 +2353,7 @@ h3 {
 .slider_area .single_slider .slider_text span {
   font-size: 30px;
   font-weight: 400;
-  color: #ff4533;
+  color: #3770ff;
   font-family: "Anton", sans-serif;
 }
 @media (max-width: 767px) {
@@ -2457,7 +2457,7 @@ h3 {
   font-family: "Anton", sans-serif;
   font-size: 30px;
   font-weight: 400;
-  color: #ff4533;
+  color: #3770ff;
 }
 .about_area .about_info p {
   margin-top: 40px;
@@ -2509,7 +2509,7 @@ h3 {
   margin-bottom: 14px;
 }
 .performar_area .single_performer .performer_heading span {
-  color: #ff4533;
+  color: #3770ff;
   font-weight: 400;
   font-size: 20px;
 }
@@ -2553,7 +2553,7 @@ h3 {
 .map_area .location_information h3 {
   font-size: 30px;
   font-weight: 400;
-  color: #ff4533;
+  color: #3770ff;
   margin-bottom: 20px;
 }
 .map_area .location_information .info_wrap .single_info {
@@ -2713,7 +2713,7 @@ h3 {
   margin-bottom: 41px;
 }
 .program_details_area .program_detail_wrap .single_propram .porgram_top span {
-  color: #ff4533;
+  color: #3770ff;
   font-size: 30px;
   font-family: "Anton", sans-serif;
   display: block;
@@ -2757,7 +2757,7 @@ h3 {
 .footer .footer_top .footer_widget h4 {
   font-size: 30px;
   font-weight: 400;
-  color: #ff4533;
+  color: #3770ff;
   margin-bottom: 24px;
 }
 .footer .footer_top .footer_widget h3 {
@@ -2785,7 +2785,7 @@ h3 {
   }
 }
 .footer .copy-right_text .copy_right a {
-  color: #ff4533;
+  color: #3770ff;
 }
 h3 {
   font-size: 24px;
